@@ -64,10 +64,10 @@ li{
 }
 
 .banner-imagen{
-  background-color:palevioletred;
-  opacity: 20%;
+  background-color: rgba(255, 166, 0, 0.4);
   width: 100%;
   height: 100px;
+  color: white;
 }
 
 .div-recetas{
@@ -100,4 +100,94 @@ li{
   width: 100%;
   min-width: 400px;
   max-width: 1180px;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+
+}
+.display-platos {
+  display: inline-block;
+  align-items: center;
+  vertical-align:top;
+  color: black;
+  margin-top: 15px;
+}
+
+.menu{
+  color: black;
+}
+
+.div-imagen-platos {
+  position: relative;
+}
+
+.imagenes-platos{
+  position: absolute;
+}
+.botones {
+  background-color: white;
+  font-family: 'century gothic';
+  position: absolute;
+  justify-items: center;
+  margin: 100px 75px 75px 150px;
+  border-radius: 15px;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: bold; 
+}
+
+.imagen-chica {
+border-radius: 200px;
+width: 200px;
+height: 200px;
+display: flex;
+margin: 100px 75px 75px 200px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.sobremi-newslater {
+  background-color: pink;
+  text-align: center;
+  font-family: 'century gothic';
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.natalia {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'century gothic';
+}
+
+.texto-nati {
+  color: grey;
+  text-align: center;
+  font-family: 'century gothic';
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.pie-video{
+  width: 340px;
+  font-size: 15px;
+  height: 58px;
+  line-height: 20px;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  color: grey;
+}
+
+.by-maria {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
