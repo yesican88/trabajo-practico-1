@@ -238,16 +238,6 @@ padding-left: 10px;
  height: 100%;
 }
 
-
-.by-maria {
-  display: flex;
-  align-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  border-top: gray;
-  border-top-width: 10px;
-}
-
 .cuarta-seccion{
   height: 600px;
 }
@@ -256,10 +246,20 @@ padding-left: 10px;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 885px;
-  height: 550px;
-  color: grey;
-  
+  width: 830px;
+  height: 600px;
+  color: grey;   
+}
+
+.by-maria {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: row;
+  padding-top: 20px;
+  border-top: gray;
+  border-top-width: 1px;
+  border-top-style: solid;
 }
 .div-imagen-ultima-receta{
   width: 45%;
@@ -268,6 +268,14 @@ padding-left: 10px;
   border-radius: 60px;
   width: 100%;
 }
+
+.receta{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 .info-receta{
 display:flex;
 justify-content: space-between;
@@ -281,8 +289,19 @@ align-items: initial;
   padding-left: 10px;
   color: grey;
 }
-.redes{
-  
+.delicias{
+  height: 60%;
+}
+.delicias h1{
+  font-size:25px;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 10px;
+}
+
+button{
+  background-color: #FFB3B3;
+
 }
 
 i{
