@@ -284,8 +284,9 @@ align-items: initial;
 .redes{
   
 }
-footer{
-  width: 1180px;
+
+i{
+  color:grey;
 }
 
 .footer{
@@ -295,4 +296,15 @@ footer{
   flex-direction: row;
   justify-content: space-between;
   width: 1180px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  border-top: grey;
+  border-top-width: 1px;
+  border-top-style: solid;
+  
+}
+.social{
+  font-family: 'Muli', sans-serif;
+  color:grey;
+  padding: 2px;
 }
