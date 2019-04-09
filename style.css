@@ -48,6 +48,9 @@ nav{
   justify-items: center;
   justify-content: space-evenly;
   height: 50px;
+  position:relative;
+  z-index:2;
+  
 }
 
 ul li {
@@ -73,17 +76,21 @@ ul li ul li{
 
 ul li:hover ul li{
   display: block;
+  background-color: white;
 }
 
 .primera-seccion{
   display: flex;
   justify-content: space-between;
+  
 }
 
 .div-primera-seccion{
   display: flex;
   justify-content: space-between;
   width:100%;
+  position:relative;
+  z-index:1;
 }
 
 .img-primera-seccion{
@@ -134,8 +141,8 @@ ul li:hover ul li{
 
 .platos a:hover, .recetas a:hover, .exoticos a:hover{
   background-color: #FFB3B3;
-}
 
+}
 
 .botones {
   background-color: white;
@@ -245,7 +252,7 @@ padding-left: 10px;
 .ultima-receta{
   display:flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 830px;
   height: 600px;
   color: grey;   
@@ -262,7 +269,7 @@ padding-left: 10px;
   border-top-style: solid;
 }
 .div-imagen-ultima-receta{
-  width: 45%;
+  width: 47%;
 }
 .imagen-ultima-receta{
   border-radius: 60px;
@@ -301,7 +308,13 @@ align-items: initial;
 
 button{
   background-color: #FFB3B3;
-
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  margin-top: 22px;
+  border: none;
+  border-radius: 5px;
+  color: black;
 }
 
 i{
