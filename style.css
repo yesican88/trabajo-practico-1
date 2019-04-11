@@ -99,10 +99,12 @@ ul li:hover ul li{
 
 .img-primera-seccion:hover + .banner-imagen{
   transform: translateY(-100px);
+  display:block;
 }
 
 .div-imagenes-recetas{
   width: 24%; 
+  position: relative;
 }
 
 .banner-imagen{
@@ -111,6 +113,8 @@ ul li:hover ul li{
   height: 100px;
   color: white;
   transition: transform 2s  ease-out 0ms;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .div-recetas{
@@ -358,6 +362,9 @@ i{
 }
 
 @media (min-width: 320px) and (max-width: 480px){
+  .container{
+    min-width: 320px;
+  }
   .titulo-web{
     font-size: 200%;
   }
@@ -373,14 +380,12 @@ i{
     align-content: center;
     width: 100%;
     height:100%;
-    margin: 0 8 0 8px;
   }
   .dos, .tres, .cuatro {
    display:none;
   }
   .segunda-seccion{
    height:100%;
-   align-content: center;
   }  
   .video{
   display: none;
@@ -392,6 +397,9 @@ i{
   }
   .div-imagen-ultima-receta{
   display:none;
+  }
+  .by-maria{
+    justify-content: center;
   }
   .dulces{
   min-width: 320px;
