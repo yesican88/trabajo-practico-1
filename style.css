@@ -95,11 +95,11 @@ ul li:hover ul li{
 
 .img-primera-seccion{
   width: 100%;
- }
+}
 
- .img-primera-seccion:hover + .banner-imagen{
+.img-primera-seccion:hover + .banner-imagen{
   transform: translateY(-100px);
- }
+}
 
 .div-imagenes-recetas{
   width: 24%; 
@@ -121,6 +121,7 @@ ul li:hover ul li{
   align-items: center;
   width:100%;
 }
+
 .segunda-seccion{
   height: 300px;
 }
@@ -135,6 +136,7 @@ ul li:hover ul li{
   min-width: 320px;
   margin: 20px 0;
 }
+
 .platos{
   background-image:url(images/platos.jpeg);
 }
@@ -165,6 +167,7 @@ ul li:hover ul li{
   line-height: 35px;
   text-align: center; 
 }
+
 .div-video-perfil{
   display: flex;
   justify-content: space-between;
@@ -186,11 +189,9 @@ ul li:hover ul li{
   color: black;
 }
 
-
 .tercera-seccion{
   padding-bottom: 50px;
 }
-
 
 .imagen-chica {
 border-radius: 200px;
@@ -232,6 +233,7 @@ margin-bottom: 15px;
   display: flex;
   flex-direction: column;
 }
+
 .pie-video{
   width: 885px;
   font-size: 15px;
@@ -241,18 +243,17 @@ margin-bottom: 15px;
 }
 
 .call-pie-video{
-border-left: grey;
-border-left-style: solid;
-border-left-width: 2px;
-margin-left: 10px;
-padding-left: 10px;
+  border-left: grey;
+  border-left-style: solid;
+  border-left-width: 2px;
+  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .video-video{
   width: 100%;
  height: 100%;
 }
-
 
 .ultima-receta{
   display:flex;
@@ -273,12 +274,15 @@ padding-left: 10px;
   border-top-width: 1px;
   border-top-style: solid;
 }
+
 .dulces{
   padding-bottom: 20px;
 }
+
 .div-imagen-ultima-receta{
   width: 47%;
 }
+
 .imagen-ultima-receta{
   border-radius: 60px;
   width: 100%;
@@ -292,10 +296,11 @@ padding-left: 10px;
 }
 
 .info-receta{
-display:flex;
-justify-content: space-between;
-align-items: initial;
+  display:flex;
+  justify-content: space-between;
+  align-items: initial;
 }
+
 .fecha{
   border-left: grey;
   border-left-style: solid;
@@ -304,9 +309,11 @@ align-items: initial;
   padding-left: 10px;
   color: grey;
 }
+
 .delicias{
   height: 60%;
 }
+
 .delicias h1{
   font-size:25px;
   font-weight: bold;
@@ -343,6 +350,7 @@ i{
   border-bottom-style: solid;
   
 }
+
 .social{
   font-family: 'Muli', sans-serif;
   color:grey;
