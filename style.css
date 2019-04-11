@@ -363,40 +363,37 @@ i{
     height:100%;
     margin: 0 8 0 8px;
   }
- .dos, .tres, .cuatro {
+  .dos, .tres, .cuatro {
    display:none;
- }
- .segunda-seccion{
+  }
+  .segunda-seccion{
    height:100%;
    align-content: center;
- }
-
-.video{
+  }  
+  .video{
   display: none;
-}
-
-.perfil{
+  }
+  .perfil{
   width: 320px;
   display: flex;
   flex-direction: column;
-}
-.div-imagen-ultima-receta{
+  }
+  .div-imagen-ultima-receta{
   display:none;
-}
-
-.dulces{
-min-width: 320px;
-}
-.receta{
-  width: 100%;
-}
-.saladas{
-  display: none;
-}
-.footer{
+  }
+  .dulces{
   min-width: 320px;
-}
-.social{
+  }
+  .receta{
+  width: 100%;
+  }
+  .saladas{
   display: none;
-}
+  }
+  .footer{
+  min-width: 320px;
+  }
+  .social{
+  display: none;
+  }
 }
