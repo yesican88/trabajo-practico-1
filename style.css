@@ -49,9 +49,9 @@ nav{
   justify-content: space-evenly;
   height: 50px;
   position:relative;
-  z-index:2;
-  
+  z-index:2; 
 }
+
 
 ul li {
   float:left;
@@ -361,6 +361,10 @@ i{
   .titulo-web{
     font-size: 200%;
   }
+  nav{
+    display:none;
+  }
+
   .primera-seccion{
     display: block;
   }
@@ -404,4 +408,14 @@ i{
   .social{
   display: none;
   }
+  .div-menu-responsive{
+  display: blocK;
+  }
 }
+
+/* width: 100%; 
+display: block;
+background-color: #FFB3B3;
+color: white;
+border-radius: 5px;
+height:20px;  */
