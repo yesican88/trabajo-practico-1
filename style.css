@@ -99,7 +99,7 @@ ul li:hover ul li{
 
 .img-primera-seccion:hover + .banner-imagen{
   transform: translateY(-100px);
-  display:block;
+  height: 17%;
 }
 
 .div-imagenes-recetas{
@@ -115,6 +115,7 @@ ul li:hover ul li{
   transition: transform 2s  ease-out 0ms;
   overflow: hidden;
   z-index: 1;
+  height: 0%;
 }
 
 .div-recetas{
