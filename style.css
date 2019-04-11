@@ -106,23 +106,20 @@ ul li:hover ul li{
 }
 
 .banner-imagen{
-  background-color: #FFB3B3;
+  background-color: rgba(255,153,102,0.5);
   width: 100%;
   height: 100px;
   color: white;
-  overflow:hidden;
-  transition: transform 2s  ease-out 0ms
+  transition: transform 2s  ease-out 0ms;
 }
-
-
 
 .div-recetas{
   display: flex;
   justify-content: space-between;
   flex-direction: row; 
+  flex-wrap: wrap;
   align-items: center;
   width:100%;
-  height: 300px;
 }
 .segunda-seccion{
   height: 300px;
@@ -135,6 +132,8 @@ ul li:hover ul li{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 320px;
+  margin: 20px 0;
 }
 .platos{
   background-image:url(images/platos.jpeg);
@@ -171,8 +170,8 @@ ul li:hover ul li{
   justify-content: space-between;
   flex-direction: row; 
   align-items: center;
+  flex-wrap: wrap;
   width:100%;
-  height: 400px;
 }
 
 .submenu-platos {
@@ -189,7 +188,7 @@ ul li:hover ul li{
 
 
 .tercera-seccion{
-  height: 455px;
+  padding-bottom: 50px;
 }
 
 
@@ -254,16 +253,12 @@ padding-left: 10px;
  height: 100%;
 }
 
-.cuarta-seccion{
-  height: 600px;
-}
 
 .ultima-receta{
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 830px;
-  height: 600px;
+  width: 70%;
   color: grey;   
 }
 
@@ -272,10 +267,14 @@ padding-left: 10px;
   justify-content: space-between;
   align-content: space-between;
   flex-direction: row;
+  min-width: 320px;
   padding-top: 20px;
   border-top: gray;
   border-top-width: 1px;
   border-top-style: solid;
+}
+.dulces{
+  padding-bottom: 20px;
 }
 .div-imagen-ultima-receta{
   width: 47%;
@@ -336,7 +335,6 @@ i{
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  width: 1180px;
   margin-bottom: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -349,4 +347,56 @@ i{
   font-family: 'Muli', sans-serif;
   color:grey;
   padding: 2px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .titulo-web{
+    font-size: 200%;
+  }
+  .primera-seccion{
+    display: block;
+  }
+  .uno{
+    display:block;
+    align-content: center;
+    width: 100%;
+    height:100%;
+    margin: 0 8 0 8px;
+  }
+ .dos, .tres, .cuatro {
+   display:none;
+ }
+ .segunda-seccion{
+   height:100%;
+   align-content: center;
+ }
+
+.video{
+  display: none;
+}
+
+.perfil{
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.div-imagen-ultima-receta{
+  display:none;
+}
+
+.dulces{
+min-width: 320px;
+}
+.receta{
+  width: 100%;
+}
+.saladas{
+  display: none;
+}
+.footer{
+  min-width: 320px;
+}
+.social{
+  display: none;
+}
 }
