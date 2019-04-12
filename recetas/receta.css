@@ -1,0 +1,301 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+text-decoration: none;
+}
+
+body{
+font-family: 'Inconsolata', monospace;
+}
+
+.titulo-web{
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+color: #FFB3B3;
+display:flex;
+justify-content: center;
+}
+
+nav{
+font-family: 'Amatic SC', cursive;
+font-size: 30px;
+display:flex;
+justify-items: center;
+justify-content: space-evenly;
+height: 50px;
+position:relative;
+z-index:2;
+}
+
+ul li {
+float:left;
+width: 100px;
+text-align: center;
+list-style: none;
+}
+
+ul li a{
+display:block;
+color: black;
+}
+
+ul li a:hover{
+background-color:#FFB3B3;
+}
+
+ul li ul li{
+display: none;
+}
+
+ul li:hover ul li{
+display: block;
+background-color: white;
+}
+
+i{
+color:grey;
+}
+
+.img-primera-seccion {
+width: 100%;  
+}
+
+.home-archive {
+flex-direction: row;
+display: flex;
+color: black;
+font-weight: bold;
+width: 200px;
+align-content: space-between;
+}
+
+.singlep {
+color: gray;    
+}
+
+.container{
+margin: 0 auto;
+overflow: hidden;
+width: 100%;
+min-width: 500px;
+max-width: 700px;
+}
+
+.container2{
+margin: 20px auto;
+overflow: hidden;
+width: 100%;
+min-width: 600px;
+max-width: 1180px; 
+}
+
+.iconos-imagen{
+display: flex;
+align-items: center;
+margin-top: 100px;
+margin-bottom: 50px;
+flex-wrap: wrap;
+}
+
+.iconos{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 0 20px 0 0;
+font-size: 25px;
+height: 250px;
+}
+
+.p{
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.p2{
+padding-right: 10px;
+    }
+
+.fa-home{
+color: black;    
+}
+
+.la-cocina{
+margin-top: 20px;
+margin-bottom: 20px;
+border-left: #FFB3B3;
+border-left-style: solid;
+border-left-width: 2px;
+margin-left: 10px;
+padding-left: 10px;
+}
+
+.li-ingredientes{
+width: 400px;
+text-align: left;  
+list-style: circle;
+}
+
+.pionono-salado{
+border-radius:35px;
+height: 100%;
+justify-content: center;
+align-items: center;
+min-width: 320px;
+width: 100%;
+}
+
+.pionono-saladotext{
+font-weight: bold;
+font-size: 25px;
+padding-left: 10px;
+margin-bottom: 20px;    
+}
+
+.texto-pionono{
+color:gray;
+font-weight: bold;
+}
+
+.iconos-pie {
+display: flex;
+align-content: center;
+align-items: center;
+flex-direction: row;
+padding-left: 10px; 
+font-size: 13px;  
+}
+
+.by-maria {
+width: 885px;
+font-size: 13px;
+color: grey;
+display: flex;
+margin: 0 0 0 0px;
+font-weight: bold;
+}
+
+.borde-pie-foto{
+border-left: grey;
+border-left-style: solid;
+border-left-width: 2px;
+margin-left: 10px;
+padding-left: 10px;
+}
+
+.pie-foto {
+display: flex;
+margin-bottom: 20px;    
+}
+
+.elena{
+color: gray;
+font-weight: bold;
+margin-top: 20px;    
+}
+
+.lista{
+display: flex;
+flex-direction: column;
+width: 400px;
+justify-content: left;
+} 
+
+.fa-star{
+color: #FFB3B3;    
+}
+
+.footer{
+display: flex;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+margin-bottom: 30px;
+margin-top: 50px;
+padding-bottom: 20px;
+border-bottom: grey;
+border-BOTTOM-width: 1px;
+border-bottom-style: solid;
+}
+
+.social{
+font-family: 'Muli', sans-serif;
+color:grey;
+padding: 2px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+.titulo-web{
+font-size: 200%;
+text-align: center;    
+  }
+ 
+  nav{
+ display:none;
+  }  
+
+.home-archive{
+display: flex;
+flex-wrap: wrap;  
+}
+
+.singlep{
+margin-top: 15px;    
+}
+
+.iconos-imagen{
+margin-top: 10px;
+}
+
+.iconos{
+flex-direction: row;
+height: 30px;
+width: 100%;
+margin-top: 0px;
+}
+
+.imagen-piononoc{
+text-align: center;
+}
+
+.pionono-salado{
+       width: 60%;
+       align-items: center;
+    }
+
+.texto-pionono{
+min-width: 320px;;    
+}   
+
+.receta {
+min-width: 320px;    
+}
+
+.footer{
+min-width: 320px;
+}
+
+.social{
+display: none;
+}
+
+.container, .container2 {
+    min-width: 320px;
+}
+
+}
